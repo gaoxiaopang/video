@@ -1,0 +1,468 @@
+/*
+重置页面样式
+*/
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+ul, li, div, p, body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/*ul, li, div, p, body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    text-align: left;
+}*/
+
+input {
+    -webkit-appearance: button;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+input, select {
+    -webkit-appearance: none;
+    outline: none
+}
+
+body, html {
+    width: 100%;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Arial, HelveticaNeue, Helvetica, "BBAlpha Sans", sans-serif;
+    font-weight: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    background: #201f2c;
+}
+
+.g-clr {
+    zoom: 1;
+}
+
+.g-clr:after {
+    display: block;
+    clear: both;
+    height: 0;
+    content: "\0020";
+}
+input[type="text"],input[type="button"], input[type="submit"], input[type="reset"] {
+
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 12, 0.1);
+    -webkit-touch-callout: none;
+    outline: none;
+}
+
+/*不同手机分辩率*/
+
+html {
+    font-size: 312.5%;
+}
+
+@media screen and (max-width: 359px) and (orientation: portrait) {
+    html {
+        font-size: 266.67%;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) and (orientation: portrait) {
+    html {
+        font-size: 300%;
+    }
+}
+
+@media screen and (min-width: 384px) and (max-width: 399px) and (orientation: portrait) {
+    html {
+        font-size: 320%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 413px) and (orientation: portrait) {
+    html {
+        font-size: 333.33%;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 431px) and (orientation: portrait) {
+    html {
+        font-size: 345%;
+    }
+}
+
+@media screen and (min-width: 432px) and (max-width: 479px) and (orientation: portrait) {
+    html {
+        font-size: 360%;
+    }
+}
+
+@media screen and (min-width: 480px)and (max-width: 639px) and (orientation: portrait) {
+    html {
+        font-size: 400%;
+    }
+}
+
+@media screen and (min-width: 640px) and (orientation: portrait) {
+    html {
+        font-size: 533.33%;
+    }
+}
+
+.main {
+
+
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    font-size: 0.24rem;
+
+}
+
+/*横屏提示e*/
+
+#lateralTips {
+    display: none;
+    position: absolute;
+    z-index: 98;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    text-align: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+#lateralTips p {
+    color: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    line-height: 0.512rem;
+    font-size: 0.44000000000000006rem;
+    width: 100%;
+    text-align: center;
+}
+.top{
+    height: 4.1rem;
+}
+.top img{
+    width: 100%;
+}
+.swiper-pagination-bullet{
+    display: none !important;
+}
+.banner a{
+    position: relative;
+    position: relative;
+
+}
+.banner a img{
+    display: block;
+}
+.banner a span{
+    display: block;
+    
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 0.1rem;
+    color: #fff;
+    background:rgba(0,0,0,0.6) url("../img/v_icon.png") no-repeat;
+    background-size:0.5rem auto ;
+    padding-left: 0.85rem;
+    background-position: 0.2rem center;
+    font-size: 0.26rem;
+
+}
+
+
+.cont{
+    background: #1f1e2b;
+}
+
+.cont .banner2{margin: 0.35rem 0}
+.icon{
+    padding: 0.5rem 0;
+    padding-left: 30px;
+}
+.icon li {
+    float: left;
+    width: 2.1rem;
+    height: 2.2rem;
+    color: #00d8ad;
+    text-align: center;
+}
+.icon li a {
+    display: block;
+    background: #1f1e2b url("../img/icon1.png") no-repeat;
+    width: 1.7rem;
+    height: 1.7rem;
+    background-size:6.3rem 4rem;
+    color: #1cbcff;
+    margin: 0px auto;
+}
+.icon li:nth-of-type(1) a{
+    background-position: 0rem 0rem;
+
+}
+.icon li:nth-of-type(2) a{
+    background-position: -2.3rem 0rem;
+}
+.icon li:nth-of-type(3) a{
+    background-position: -4.7rem 0rem;
+}
+.icon li:nth-of-type(4) a{
+    background-position: 0rem -2.5rem;
+
+}
+.icon li:nth-of-type(5) a{
+    background-position: -2.3rem -2.5rem;
+}
+.icon li:nth-of-type(6) a{
+    background-position: -4.7rem -2.5rem;
+}
+.banner3{
+}
+.banner3 img{
+    width: 100%;
+}
+#list .top{
+    height: 1rem;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+
+}
+.top a{
+
+    display: block;
+
+}
+.top p{
+    color: #17ba9d;
+    position: absolute;
+    left: 50%;
+    top: 0rem;
+    width: 1.5rem;
+    line-height: 1rem;
+    margin-left: -0.75rem;
+    font-size: 0.34rem;
+}
+.top a.left{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/left.png") no-repeat center center;
+    background-size:0.24rem 0.38rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.2rem;
+}
+.list li{
+
+}
+.list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.list li img{
+    width: 2.4rem;
+    display: block;
+
+}
+.left{
+
+}
+#list .main{
+    padding: 0 0.3rem;
+    width: calc(100% - 0.6rem);
+}
+#list .banner,#list .banner img{
+    width: 100%;
+}
+#list .list li{
+    position: relative;
+    height: 1.8rem;
+    padding-top:0.2rem;
+    border-top: 1px solid #282732;
+}
+#list .list div{
+    position: absolute;
+    left:0.1rem;
+}
+#list .list em{
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    font-style: normal;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0.05rem 0.1rem;
+}
+#list .list span{
+    color: #0c9f83;
+    font-size: 0.26rem;
+    display: block;
+    width: 3.95rem;
+    position: absolute;
+    left: 2.9rem;
+    top: 0.5rem;
+}
+.menu{
+    width:0.6rem ;
+    height: 0.6rem;
+    background: url("../img/icon2.png") no-repeat center center;
+    background-size: 0.5rem 0.38rem;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.2rem;
+}
+.popMore{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(32, 29, 34, 0.89);
+    left: 0;
+    top: 0;
+    z-index: 7;
+    display: none;
+}
+.more{
+    width: 100%;
+    padding-top: 2.25rem;
+}
+.more li{
+    height: 1.32rem;
+    padding: 0 .99rem;
+
+
+}
+.more li a{
+    display: block;
+    background: url("../img/more_list.png") left 0 no-repeat;
+    background-size: 0.7rem 7.36rem;
+    height: 1.32rem;
+    color: #00d8ad;
+    padding-left: 0.98rem;
+    font-size: 0.3rem;;
+    line-height: 1.32rem;
+    border-bottom: 1px solid #3a384a;
+}
+.more li:nth-of-type(1) a{
+    background-position: 0rem 0.29rem;
+}
+.more li:nth-of-type(2) a{
+    background-position: 0rem -1.01rem;
+}
+
+.more li:nth-of-type(3) a{
+    background-position: 0rem -2.31rem;
+}
+
+.more li:nth-of-type(4) a{
+    background-position: 0rem -3.71rem;
+}
+.more li:nth-of-type(5) a{
+    background-position: 0rem -5.01rem;
+}
+.more li:nth-of-type(6) a{
+    background-position: 0rem -6.31rem;
+}
+
+.videoBox{
+    width: 100%;
+    margin-bottom: 0.2rem;
+}
+.videoBox video{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
